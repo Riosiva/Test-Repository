@@ -46,7 +46,6 @@ namespace generics
                 Console.Write(intArray.getItem(c) + " ");
             }
 
-            Console.WriteLine();
 
             //declaring a character array
             MyGenericArray<char> charArray = new MyGenericArray<char>(5);
@@ -65,6 +64,7 @@ namespace generics
             Console.WriteLine();
 
             Console.ReadKey();
+			Console.WriteLine('git test');
         }
     }
 }
