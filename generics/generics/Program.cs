@@ -63,8 +63,9 @@ namespace generics
             }
             Console.WriteLine();
 
+			Console.WriteLine("git test");
+            Console.WriteLine("git 10-12-2021");
             Console.ReadKey();
-			Console.WriteLine('git test');
         }
     }
 }
